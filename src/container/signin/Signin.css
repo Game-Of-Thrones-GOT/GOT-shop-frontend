@@ -1,0 +1,67 @@
+.container{
+    display: grid;
+    grid-template-columns: 0.45fr 1fr;
+}
+
+.rightContainer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.left{
+    background-color: black;
+    width:100%;
+    height: auto;
+}
+
+.middle{
+    background-color: #0B0B0B;
+    color: #5C5C5C;
+    padding: 50px;
+    text-align: center;
+}
+
+.right{
+    background-color:#252525;
+}
+
+.logo{
+    width:100%;
+}
+
+.ironThrone{
+    width: 200px;;
+}
+
+.form{
+    margin: 100px;
+    text-align:center;
+    /* background-color: black; */
+}
+
+.input{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin:10px;
+    height: 25px;
+    width: 55%;
+    background-color:#D4D1D1;
+}
+
+.input:hover{
+    background-color: white;
+}
+
+.button{
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+}
+
+.button:hover{
+    background-color:#D4D1D1;
+}
