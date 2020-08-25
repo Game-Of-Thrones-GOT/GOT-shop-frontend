@@ -71,3 +71,8 @@ margin: 0;
     text-transform: uppercase;
     cursor: pointer;
 }
+
+.btn:hover{
+    background-color:#707070;
+    color: white;
+}
