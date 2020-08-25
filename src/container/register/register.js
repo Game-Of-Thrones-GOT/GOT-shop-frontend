@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 
-import classes from './Signin.css';
+import classes from './register.css';
 import manyFacesGod from '../../assets/manyFacesGod.png'
 
 
-class Signin extends Component {
+class Register extends Component {
     render() {
         return(
             <div className={classes.container}>
-
+                
                     <img src={manyFacesGod} className={classes.logo}/>
 
                 <div className={classes.rightContainer}>
@@ -19,12 +19,13 @@ class Signin extends Component {
 
                     <div className={classes.right}>
                         <div className={classes.form}>
-                            <br/><br/><br/>
+                            <br/><br/>
                             <h1 style={{color:"white"}}>G O T</h1><br/>
+                            <input placeholder='name' className={classes.input}></input><br/>
                             <input placeholder='email' className={classes.input}></input><br/>
                             <input placeholder='password' className={classes.input}></input><br/><br/>
-                            <button className={classes.button}>signin</button><br/><br/>
-                            <a className={classes.register}>i'm no one! (register)</a>
+                            <button className={classes.button}>register</button><br/>
+                            <a className={classes.register}>sigin</a>
                         </div>
                     </div>
                 </div>
@@ -33,4 +34,4 @@ class Signin extends Component {
     }
 }
 
-export default Signin;
+export default Register;
