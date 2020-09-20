@@ -12,7 +12,7 @@ class Signin extends Component {
               <div className={classes.menu}>
                   <h4 style={{cursor: "pointer"}}>Home</h4>
                   <h4 style={{cursor: "pointer"}}>Orders</h4>
-                  <h4 style={{cursor: "pointer"}}>ABout</h4>
+                  <h4 style={{cursor: "pointer"}}>About</h4>
               </div>
 
             </div>
