@@ -4,7 +4,7 @@
     position: absolute;
     /* position:relative; */
     background-image: url('../../assets/noFace.jpg');
-    opacity: 0.32;
+    /* opacity: 0.32; */
     background-size: cover;
     z-index: 0;
 

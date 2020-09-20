@@ -2,15 +2,13 @@ import React, {Component} from 'react';
 
 import classes from './login.css';
 
-
-
 class Signin extends Component {
     render() {
         return(
             <div>
-                <div className={classes.outer}>
+                {/* <div className={classes.outer}>
                     <h1></h1>
-                </div>
+                </div> */}
 
                 <div className={classes.container}>
                     <div className={classes.left}>
