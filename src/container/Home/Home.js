@@ -73,10 +73,35 @@ class Signin extends Component {
                     <h1 className={classes.sale}>Now On Sale</h1>
 
                     <div className={classes.items}>
-                        <div className={classes.item1}>
+
+                        <div className={classes.item}>
                             <img src={sword} className={classes.sword}/>
+                            <h4 style={{textAlign: "center", color: "white"}}>Valeriyan Sword</h4>
                         </div>
+
+                        <div className={classes.item}>
+                            <img src={drogon} className={classes.drogon}/>
+                            <h3 style={{textAlign: "center", color: "white"}}>Drogon</h3>
+                        </div>
+
+                        <div className={classes.item}>
+                            <img src={wine} className={classes.wine}/>
+                            <h4 style={{textAlign: "center", color: "white"}}>Dornish Wine</h4>
+                        </div>
+
                     </div>
+
+                </div>
+
+                <div className={classes.block5}>
+                    <p className={classes.footer}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took a galley of type and scrambled it to make a 
+                          type specimen book. It has survived not only five centuries, but also the
+                           leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets
+                             containing Lorem Ipsum passages, and more recently with desktop publishing
+                              software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                 </div>
 
                 
