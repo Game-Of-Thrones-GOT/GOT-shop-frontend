@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
 import Toolbar from '../../components/Toolbar/Toolbar.js'
+import SlideShow from '../../components/slideShow/slideShow.js'
 
 import nightKing from '../../assets/nightKing.jpg';
 import drogon from '../../assets/drogon.jpg';
@@ -72,29 +73,13 @@ class Signin extends Component {
                 <div className={classes.block4}>
                     <h1 className={classes.sale}>Now On Sale</h1>
 
-                    <div className={classes.items}>
-
-                        <div className={classes.item}>
-                            <img src={sword} className={classes.sword}/>
-                            <h4 style={{textAlign: "center", color: "white"}}>Valeriyan Sword</h4>
-                        </div>
-
-                        <div className={classes.item}>
-                            <img src={drogon} className={classes.drogon}/>
-                            <h3 style={{textAlign: "center", color: "white"}}>Drogon</h3>
-                        </div>
-
-                        <div className={classes.item}>
-                            <img src={wine} className={classes.wine}/>
-                            <h4 style={{textAlign: "center", color: "white"}}>Dornish Wine</h4>
-                        </div>
-
-                    </div>
+                    <SlideShow />
 
                 </div>
 
                 <div className={classes.block5}>
-                    <p className={classes.footer}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    <p className={classes.footer}>Lorem Ipsum is simply dummy text of the printing
+                         and typesetting industry.
                          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                           when an unknown printer took a galley of type and scrambled it to make a 
                           type specimen book. It has survived not only five centuries, but also the
