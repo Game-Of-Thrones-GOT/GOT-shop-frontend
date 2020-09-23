@@ -12,12 +12,40 @@
     text-align: center;
 }
 
-.sides{
+.sides .images{
     width: 150px;
+    opacity: 0.2;
+}
+
+.sides .product{
+    opacity: 0.2;
+}
+
+.product{
+    color: white;
+}
+
+.cancel{
+    text-decoration: line-through;
+    color: rgba(243, 71, 71, 0.5);
 }
 
 .main{
     width: 300px;
+    transition: all 0.3s;
+    cursor: pointer;
+
+    animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+.main:hover{
+    width: 350px
 }
 
 .images{
@@ -28,6 +56,13 @@
 
 .next, .prev{
     cursor: pointer;
+    padding: 10px;
+    border-radius: 100px;
+    color: white;
+}
+
+.next:hover, .prev:hover{
+    background-color: rgba(0,0,0,0.5);
 }
 
 

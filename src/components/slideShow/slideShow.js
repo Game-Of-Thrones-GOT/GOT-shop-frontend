@@ -60,27 +60,37 @@ class Signin extends Component {
             [
                 <div className={classes.slide}>
                     <img src={sword} className={classes.images}/>
-                    <h4 style={{textAlign: "center", color: "white"}}>Valeriyan Sword</h4>
+                    <h4 className={classes.product}>Valeriyan Sword</h4>
+                    <h6 className={classes.cancel}>$15000</h6>
+                    <h5 className={classes.product}>$10000</h5>
                 </div>,
 
                 <div className={classes.slide}>
                     <img src={drogon} className={classes.images}/>
-                    <h4 style={{textAlign: "center", color: "white"}}>Drogon</h4>
+                    <h4 className={classes.product}>Drogon</h4>
+                    <h6 className={classes.cancel}>$120000</h6>
+                    <h5 className={classes.product}>$99999</h5>
                 </div>,
 
                 <div className={classes.slide}>
                     <img src={wine} className={classes.images}/>
-                    <h4 style={{textAlign: "center", color: "white"}}>Dornish Wine</h4>
+                    <h4 className={classes.product}>Dornish Wine</h4>
+                    <h6 className={classes.cancel}>$650</h6>
+                    <h5 className={classes.product}>$500/l</h5>
                 </div>,
 
                 <div className={classes.slide}>
                     <img src={dragonGlass} className={classes.images}/>
-                    <h4 style={{textAlign: "center", color: "white"}}>Dragon Glass</h4>
+                    <h4 className={classes.product}>Dragon Glass</h4>
+                    <h6 className={classes.cancel}>$500</h6>
+                    <h4 className={classes.product}>$249</h4>
                 </div>,
 
                 <div className={classes.slide}>
                     <img src={armour} className={classes.images}/>
-                    <h4 style={{textAlign: "center", color: "white"}}>Knight Armour</h4>
+                    <h4 className={classes.product}>Knight Armor</h4>
+                    <h6 className={classes.cancel}>$27000</h6>
+                    <h4 className={classes.product}>$14999</h4>
                 </div>,
             ]
         )
