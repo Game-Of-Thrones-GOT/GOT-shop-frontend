@@ -20,6 +20,11 @@
 .outer{
     background-color: black;
 
+    background-image: url('../../assets/nightKing.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    /* position: absolute; */
 }
 
 .header{

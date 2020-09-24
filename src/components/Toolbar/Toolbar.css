@@ -1,13 +1,14 @@
 .container{
     display: grid;
     grid-template-columns: 3fr 1fr;
-    /* padding: 18px; */
+    padding: 18px;
     color: white;
     background-color: rgba(0, 0, 0, 0.685);
     position: fixed;
     top:0;
     width: 100%;
 }
+
 
 .title{
     padding: 15px;
@@ -17,6 +18,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 
 .tab{
     cursor: pointer;
@@ -33,3 +35,4 @@
     border-bottom: 2px solid white;
     opacity: 1;
 }
+ master

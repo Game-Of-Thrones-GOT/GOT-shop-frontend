@@ -90,6 +90,16 @@ class Signin extends Component {
                 </div>
 
                 
+               
+               <div className={classes.block1} >
+                   <Toolbar/>
+                   <div className={classes.header}>
+                        <h1>Winter is coming!</h1>
+                        <p>Shop now.</p>
+                   </div>                 
+               </div>
+
+               <h1>hello</h1>
 
             </div>
             

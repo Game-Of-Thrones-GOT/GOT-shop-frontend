@@ -13,6 +13,10 @@ class Signin extends Component {
                   <h4 className={classes.tab}>Home</h4>
                   <h4 className={classes.tab}>Orders</h4>
                   <h4 className={classes.tab}>About</h4>
+                  <h4 style={{cursor: "pointer"}}>Home</h4>
+                  <h4 style={{cursor: "pointer"}}>Orders</h4>
+                  <h4 style={{cursor: "pointer"}}>About</h4>
+
               </div>
 
             </div>

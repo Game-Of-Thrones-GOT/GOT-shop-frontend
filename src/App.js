@@ -6,6 +6,7 @@ import Landing from './container/Landing/Landing.js';
 import Login from './container/login/Login.js';
 import Home from './container/Home/Home.js';
 import Test from './components/slideShow/slideShow.js'
+import Test from './components/Toolbar/Toolbar.js'
 
 
 function App() {
