@@ -1,7 +1,11 @@
 .container{
     display: grid;
     grid-template-columns: 3fr 1fr;
+<<<<<<< HEAD
+    /* padding: 18px; */
+=======
     padding: 18px;
+>>>>>>> f66adb7c21c8768d3af7246a6d93ac34da9c1395
     color: white;
     background-color: rgba(0, 0, 0, 0.685);
     position: fixed;
@@ -9,16 +13,18 @@
     width: 100%;
 }
 
-
+<<<<<<< HEAD
 .title{
     padding: 15px;
 }
 
+=======
+>>>>>>> f66adb7c21c8768d3af7246a6d93ac34da9c1395
 .menu{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-
+<<<<<<< HEAD
 
 .tab{
     cursor: pointer;
@@ -35,4 +41,5 @@
     border-bottom: 2px solid white;
     opacity: 1;
 }
- master
+=======
+>>>>>>> f66adb7c21c8768d3af7246a6d93ac34da9c1395
