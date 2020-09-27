@@ -4,7 +4,6 @@
   }
 
 .block1{
-<<<<<<< HEAD
     width: 100%;
     height: 650px;
 }
@@ -21,13 +20,6 @@
 .outer{
     background-color: black;
 
-=======
-    background-image: url('../../assets/nightKing.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 650px;
-    /* position: absolute; */
->>>>>>> f66adb7c21c8768d3af7246a6d93ac34da9c1395
 }
 
 .header{
@@ -35,7 +27,6 @@
     padding-left: 100px;
     font-size: 30px;
     color: white;
-<<<<<<< HEAD
 }
 
 .block2{
@@ -196,6 +187,4 @@
 .footer{
     padding: 60px;
     color: white;
-=======
->>>>>>> f66adb7c21c8768d3af7246a6d93ac34da9c1395
 }
