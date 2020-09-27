@@ -1,0 +1,73 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr 6fr 4fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.slide{
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.sides .images{
+    width: 150px;
+    opacity: 0.2;
+}
+
+.sides .product{
+    opacity: 0.2;
+}
+
+.product{
+    color: white;
+}
+
+.cancel{
+    text-decoration: line-through;
+    color: rgba(243, 71, 71, 0.5);
+}
+
+.main{
+    width: 300px;
+    transition: all 0.3s;
+    cursor: pointer;
+
+    animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+.main:hover{
+    width: 350px
+}
+
+.images{
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.next, .prev{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 100px;
+    color: white;
+}
+
+.next:hover, .prev:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.center{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
