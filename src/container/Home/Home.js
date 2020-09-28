@@ -1,15 +1,12 @@
 import React, {Component} from 'react';
 
 import Toolbar from '../../components/Toolbar/Toolbar.js'
-<<<<<<< HEAD
 import SlideShow from '../../components/slideShow/slideShow.js'
 
 import nightKing from '../../assets/nightKing.jpg';
 import drogon from '../../assets/drogon.jpg';
 import sword from '../../assets/sword.jpg';
 import wine from '../../assets/wine.jfif';
-=======
->>>>>>> f66adb7c21c8768d3af7246a6d93ac34da9c1395
 
 import classes from './Home.css';
 
@@ -17,7 +14,6 @@ class Signin extends Component {
     render() {
         return(
             <div>
-<<<<<<< HEAD
 
                 <div className={classes.outer}>
                         <div className={classes.block1} >
@@ -94,18 +90,6 @@ class Signin extends Component {
                 </div>
 
                 
-=======
-               
-               <div className={classes.block1} >
-                   <Toolbar/>
-                   <div className={classes.header}>
-                        <h1>Winter is coming!</h1>
-                        <p>Shop now.</p>
-                   </div>                 
-               </div>
-
-               <h1>hello</h1>
->>>>>>> f66adb7c21c8768d3af7246a6d93ac34da9c1395
 
             </div>
             
