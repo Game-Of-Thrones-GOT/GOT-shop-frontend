@@ -18,7 +18,7 @@ class Signin extends Component {
                     </div>
 
                     <div className={classes.right}>
-                        <h1>G O T</h1>
+                        <h1 style={{color:'white'}}>GOT</h1>
                        <input placeholder='id' className={classes.input}></input><br/>
                        <input placeholder='password' className={classes.input}></input><br/><br/>
                        <button className={classes.button}>login</button>

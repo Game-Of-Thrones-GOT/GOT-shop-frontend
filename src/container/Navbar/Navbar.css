@@ -32,8 +32,9 @@
     font-size: 30px;
     color: #9e9797;
     text-transform: uppercase;
+    text-decoration: none !important;
     cursor: pointer;
 }
 .item:hover{
-    text-decoration: underline;
+    text-decoration: none;
 }

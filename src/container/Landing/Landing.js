@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './Landing.css'
+import {Link} from 'react-router-dom'
 
 const Landing =() => {
     return (
@@ -11,8 +12,13 @@ const Landing =() => {
                 <p className={classes.para2}>Shop now</p>
                 </div>
                 <div className={classes.btnContainer}>
-                    <button className={classes.btn}>login</button>
-                    <button className={classes.btn}>Signup</button>
+                    <Link to='/login'>
+                        <button className={classes.btn}>login</button>
+                    </Link>
+                    <Link to='/register'>
+                        <button className={classes.btn}>Signup</button>
+                    </Link>
+                    
                 </div>
             </div>
         </div>

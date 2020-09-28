@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import {Link} from 'react-router-dom'
 import classes from './register.css';
 
 class Signin extends Component {
@@ -12,18 +12,18 @@ class Signin extends Component {
 
                 <div className={classes.container}>
                     <div className={classes.left}>
-                        <h1  className={classes.head}>Who</h1>
-                        <h1  className={classes.head}>Are</h1>
-                        <h1  className={classes.head}>You?</h1>
+                        <h1 style={{margin:'0',padding:'0'}}>Who are you?</h1>
                     </div>
 
                     <div className={classes.right}>
-                        <h1>G O T</h1>
+                        <h1 style={{color:'white'}}>GOT</h1>
                         <input placeholder='name' className={classes.input}></input><br/>
                        <input placeholder='id' className={classes.input}></input><br/>
                        <input placeholder='password' className={classes.input}></input><br/><br/>
                        <button className={classes.button}>register</button>
-                       <p className={classes.reg}><span className={classes.bold}>Login</span></p>
+                       <Link to='/login'>
+                            <p className={classes.reg}><span className={classes.bold}>Login</span></p>
+                       </Link>
                     </div>
                 </div>
 
